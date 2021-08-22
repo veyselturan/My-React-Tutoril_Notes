@@ -25,7 +25,9 @@ npx create-react-app my-app
 - npm install --save react-spinners
 - npm install --save react-confirm-alert
 - npm install --save react-icons
-- npm install --save ag-grid-community
+- npm install --save ag-grid-community ag-grid-react
+- npm install --save @material-ui/core
+- npm install --save @material-tailwind/react
 
 First, We have to use router library in App.js to navigate between pages.
 
@@ -62,7 +64,7 @@ class App extends Component {
 ```
 Let's create a page named 'HomePage' under the 'page' folder. And then run project. You'll see 'Hello World' in default page.
 ```javascript
-import { Switch, Route, Redirect } from 'react-router-dom';
+import React from 'react';
 
 class HomePage extends Component {
     constructor(props){
@@ -90,6 +92,8 @@ Before design HomePage, let's create a Login Page. And we have to add the name o
 
 ```javascript
 import { Switch, Route, Redirect } from 'react-router-dom';
+import Button from '@material-tailwind/react/Button';
+import Input from '@material-tailwind/react/Input';
 
 class LogIn extends Component {
     constructor(props){
@@ -98,31 +102,48 @@ class LogIn extends Component {
             
         }
     }
+    handleChange = (key, e) => {
+        this.setState({
+            [key]: e.target.value,
+        })
+    };
+    adminLogin (){
+        this.props.GetLogin(this.state.userName,this.state.password,
+            ({USER_INFO})=>{
+            this.setState({userData:USER_INFO})
+            console.log("DATA",this.state.userData)
+            localStorage.setItem('userName', this.state.userData.NAME);
+            this.props.histroy.push('/')
+            },
+            ()=>{
+                alert("failed")
+            })
+    }
     render(){
     return (
             <>
             <div>
                 <div className="flex flex-wrap mt-10">
-            <div className="w-full lg:w-6/12 pr-4 mb-10 font-light">
-                <Input
-                    type="text"
-                    color="purple"
-                    placeholder="Username"
-                    onChange={(e) => {this.handleChange("userName",e)}}
-                />
-            </div>
-        </div>
-        <div className="flex flex-wrap mt-10">
-            <div className="w-full lg:w-6/12 pr-4 mb-10 font-light">
-                <Input
-                    type="text"
-                    color="purple"
-                    placeholder="Password"
-                    onChange={(e) => {this.handleChange("password",e)}}
-                />
-            </div>
-        </div>
-        <Button onClick={()=>this.adminLogin()}>Giriş</Button>
+                  <div className="w-full lg:w-6/12 pr-4 mb-10 font-light">
+                      <Input
+                          type="text"
+                          color="purple"
+                          placeholder="Username"
+                          onChange={(e) => {this.handleChange("userName",e)}}
+                      />
+                  </div>
+              </div>
+              <div className="flex flex-wrap mt-10">
+                  <div className="w-full lg:w-6/12 pr-4 mb-10 font-light">
+                      <Input
+                          type="text"
+                          color="purple"
+                          placeholder="Password"
+                          onChange={(e) => {this.handleChange("password",e)}}
+                      />
+                  </div>
+              </div>
+              <Button onClick={()=>this.adminLogin()}>Giriş</Button>
               </div>
             
             </>
@@ -138,13 +159,96 @@ See Router.
 ```javascript
 <Switch>
    <Route exact path="/" component={HomePage} />
+   <Route exact path="/login" component={LogIn} />
 </Switch>
 ```
 
 Now, let's design our HomePage. 
 We'll use  Ag-Grid, select and basic other components with some local .Json files.
 
+```javascript
+import React from 'react';
+import { AgGridColumn, AgGridReact } from 'ag-grid-react';
+import 'ag-grid-community/dist/styles/ag-grid.css';
+import 'ag-grid-community/dist/styles/ag-theme-balham.css';
 
+class HomePage extends Component {
+    constructor(props){
+        super(props);
+        this.state={
+            columnDefs: [
+              { headerName: 'Make', field: 'make' },
+              { headerName: 'Model', field: 'model' },
+              { headerName: 'Price', field: 'price' }
+            ],
+            rowData: [
+              { make: 'Toyota', model: 'Celica', price: 35000 },
+              { make: 'Ford', model: 'Mondeo', price: 32000 },
+              { make: 'Porsche', model: 'Boxter', price: 72000 }
+            ]
+        }
+    }
+    handleChange = event => {
+        console.log(`Option selected:`, event.data);
+
+        this.props.GetNonAttendanceBasedOnClass(event.data,"",
+            (NON_ATTENDANCE_CLASS_LIST)=>{
+                const status = new Promise(
+                    // The resolver function is called with the ability to resolve or
+                    // reject the promise
+                    (resolve, reject) => {
+                        try
+                        {
+                            resolve('Operation start')
+                        }
+                        catch (err){
+                            reject('Operation failed')
+                        }
+                    });
+                status.then(() => {
+                    this.setState({non_Attendance_List:NON_ATTENDANCE_CLASS_LIST.NON_ATTENDANCE_CLASS_LIST,loading:false,
+                        className:NON_ATTENDANCE_CLASS_LIST.NON_ATTENDANCE_CLASS_LIST[0].data.CLASS_NAME})
+                    console.log("Sınıf Listesi=>",NON_ATTENDANCE_CLASS_LIST.NON_ATTENDANCE_CLASS_LIST)
+                });
+                
+            },
+            ()=>{
+                this.setState({loading:false})
+            },
+        )
+      };
+    render(){
+    return (
+            <>
+            <div>
+                    <div>
+                            <Select 
+                            options={this.state.classList}
+                            getOptionLabel = {option=>option.data}
+                            placeholder = "Sınıf Seçiniz"
+                            defaultValue = {option=>option.data[0]} 
+                            onChange={this.handleChange}
+                            />
+                        </div>
+                        <div>
+                        <AgGridReact
+                        pagination={true}
+                        rowData={this.state.rowData}                    
+                        columnDefs={this.state.colDefs}
+                        >
+                   </AgGridReact>
+                   </div>
+              </div>
+            
+            </>
+        );
+      }
+}
+
+ export default HomePage;
+```
+
+You can find much more detail about Ag-Grid-React in this site https://blog.ag-grid.com/react-get-started-with-react-grid-in-5-minutes/
 
 ```javascript
 
