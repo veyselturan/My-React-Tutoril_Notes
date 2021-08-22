@@ -1,0 +1,548 @@
+{
+"Members" : [
+
+  {
+    "IdentityOrTaxNumber": "348",
+    "NameOrTitle": "ARDA",
+    "Surname": "TURAN",
+    "FatherNameOrRelatedPerson": "MEHMET",
+    "MotherName": "SUZAN",
+    "CodeOfPlaceOfBirth": 0,
+    "PlaceOfBirth": "GAZİANTEP",
+    "DateOfBirth": "25.06.1995",
+    "Gender": "1",	
+    "MembershipId": 6600000012959069,
+    "id": 6600000012959067,
+    "MemberNo": 91502873,
+    "MemberType": "G",	
+    "IsMembershipActive": true,
+    "LandInfos": [
+      {
+        "Oid": 6600000012989049,
+        "Status": 1,
+        "LastUpdated": 1624962518665,
+        "OperationRefNo": 2681029,
+        "MemberId": 6600000012959067,
+        "AreaSize": 555.0 ,
+		"RentDate": "2021-04-08T09:09:10"	
+    },
+    {
+        "Oid": 6600000012989044,
+        "Status": 1,
+        "LastUpdated": 1624888498389,
+        "OperationRefNo": 2681020,
+       "MemberId": 6600000012959067,
+        "AreaSize": 25.0 ,
+		"RentDate": "2021-05-08T09:09:10"	
+    },
+ {
+        "Oid": 6600000006885008,
+        "Status": 1,
+        "LastUpdated": 1481810855790,
+        "OperationRefNo": 447704,
+        "MemberId": 6600000012959067,
+        "AreaSize": 1288.0 ,
+		"RentDate": "2021-05-31T09:09:10"	
+    }
+    ],
+    "Email": "ardaturnn1905@gmail.com",
+    "GsmNumber": "(597) 123 65 55",
+    "DistrictCode": 174135,
+    "IrrigationUnionId": 1,
+    "AgreementDate": null,
+    "AgreementNo": 0,
+    "Explanation": "Deneme açıklaması güncelleme"
+  },
+
+  {
+    "IdentityOrTaxNumber": "638",
+    "NameOrTitle": "AYŞE",
+    "Surname": "ŞAHİN",
+    "FatherNameOrRelatedPerson": "HÜSEYİN",
+    "MotherName": "AYŞE",
+    "CodeOfPlaceOfBirth": 1804,
+    "PlaceOfBirth": "GÖÇERİ",
+    "DateOfBirth": "05.01.1956",
+    "Gender": "2",
+    
+    "MembershipId": 6600000006885005,
+    "id": 6600000006885002,
+    "MemberNo": 694,
+    "MemberType": "G",    
+    "IsMembershipActive": true,
+    "LandInfos": [
+		 {
+        "Oid": 6600000006567010,
+        "Status": 1,
+        "LastUpdated": 1478586537368,
+        "OperationRefNo": 655909,
+        "MemberId":6600000006885002,
+		 "AreaSize": 555.0 ,
+		"RentDate": null
+    },
+    {
+        "Oid": 6600000006567012,
+        "Status": 1,
+        "LastUpdated": 1478616974353,
+        "OperationRefNo": 655910,
+       "MemberId":6600000006885002,
+        "AreaSize": 999.0 ,
+		"RentDate": "2020-04-22T09:09:10"	
+    },
+ {
+        "Oid": 6600000006679016,
+        "Status": 1,
+        "LastUpdated": 1480060676379,
+        "OperationRefNo": 446612,
+        "MemberId":6600000006885002,
+        "AreaSize": 1889.0 ,
+		"RentDate": "2021-05-18T09:09:10"	
+    },
+{
+        "Oid": 6600000010085042,
+        "Status": 1,
+        "LastUpdated": 1586187389224,
+        "OperationRefNo": 511125,
+       "MemberId":6600000006885002,
+        "AreaSize": 199.0 ,
+		"RentDate": "2020-09-18T09:09:10"	
+    }
+	],
+    "Email": "",
+    "GsmNumber": "",
+    "DistrictCode": 173081,
+    "IrrigationUnionId": 1,
+    "AgreementDate": null,
+    "AgreementNo": 0,
+    "Explanation": ""
+  },
+
+  {
+    "IdentityOrTaxNumber": "812",
+    "NameOrTitle": "AHMET",
+    "Surname": "SU",
+    "FatherNameOrRelatedPerson": "HASAN",
+    "MotherName": "HACER",
+    "CodeOfPlaceOfBirth": 0,
+    "PlaceOfBirth": "TILNASIR",
+    "DateOfBirth": "08.05.1939",
+    "Gender": "1",    
+    "MembershipId": 5500000049177653,
+    "id": 5500000049177652,
+   
+    "MemberNo": 8,
+    "MemberType": "G",
+   
+    "IsMembershipActive": true,
+    "LandInfos": [
+      {
+        "Oid": 6600000009545003,
+        "Status": 1,
+        "LastUpdated": 1594636309095,
+        "OperationRefNo": 2398631,
+       "MemberId":5500000049177652,
+        "AreaSize": 199.0 ,
+		"RentDate": "2020-09-18T09:09:10"
+    },
+ {
+        "Oid": 6600000006679111,
+        "Status": 1,
+        "LastUpdated": 1480061511053,
+        "OperationRefNo": 446629,
+        "MemberId":5500000049177652,
+        "AreaSize": 1403.0 ,
+		"RentDate": "2020-09-18T09:09:10"
+    },
+{
+        "Oid": 6600000006558289,
+        "Status": 1,
+        "LastUpdated": 1478537045407,
+        "OperationRefNo": 655653,
+       "MemberId": 5500000049177652,
+        "AreaSize": 1071.0 ,
+		"RentDate": "2020-12-18T09:09:10"
+    },
+    {
+        "Oid": 6600000006558293,
+        "Status": 1,
+        "LastUpdated": 1478537346091,
+        "OperationRefNo": 655656,
+       "MemberId":5500000049177652,
+        "AreaSize": 923.0 ,
+		"RentDate": "2020-01-18T09:09:10"
+    }
+    ],
+    "Email": "",
+    "GsmNumber": "(599) 999 99 99",
+    "DistrictCode": 174393,
+    "IrrigationUnionId": 1,
+    "AgreementDate": "2019-03-17T00:00:00",
+    "AgreementNo": 2,
+    "Explanation": ""
+  },
+  {
+    "IdentityOrTaxNumber": "244",
+    "NameOrTitle": "AHMET",
+    "Surname": "ÇELİK",
+    "FatherNameOrRelatedPerson": "METİN",
+    "MotherName": "SEVAL",
+    "CodeOfPlaceOfBirth": 0,
+    "PlaceOfBirth": "ŞANLIURFA",
+    "DateOfBirth": "01.09.1959",
+    "Gender": "1",
+    
+    "MembershipId": 5500000049177661,
+    "id": 5500000049177660,
+    "Status": 1,
+    "LastUpdated": 1468417035082,
+    "OperationRefNo": 299219,
+    "MemberNo": 12,
+    "MemberType": "G",
+    
+    "IsMembershipActive": true,
+    "LandInfos": [
+		{
+        "Oid": 6600000010784025,
+        "Status": 1,
+        "LastUpdated": 1594211480038,
+        "OperationRefNo": 536323,
+      "MemberId": 5500000049177660,
+        "AreaSize": 919.0 ,
+		"RentDate": "2020-06-18T09:09:10"
+    },
+{
+        "Oid": 6600000009919053,
+        "Status": 1,
+        "LastUpdated": 1583743406699,
+        "OperationRefNo": 499940,
+       "MemberId": 5500000049177660,
+        "AreaSize": 919.0 ,
+		"RentDate": "2020-06-24T09:09:10"
+    },
+ {
+        "Oid": 6600000009098018,
+        "Status": 1,
+        "LastUpdated": 1563791098224,
+        "OperationRefNo": 2292312,
+       "MemberId": 5500000049177660,
+        "AreaSize": 919.0 ,
+		"RentDate": "2020-06-29T09:09:10"
+    }
+	],
+    "Email": "",
+    "GsmNumber": "(599) 999 99 99",
+    "DistrictCode": 173119,
+    "IrrigationUnionId": 1,
+    "AgreementDate": null,
+    "AgreementNo": 0,
+    "Explanation": ""
+  },
+  {
+    "IdentityOrTaxNumber": "128",
+    "NameOrTitle": "AHMET",
+    "Surname": "ADEMOĞLU",
+    "FatherNameOrRelatedPerson": "MAHMUT",
+    "MotherName": "HAVVA",
+    "CodeOfPlaceOfBirth": 0,
+    "PlaceOfBirth": "GÖGEÇ",
+    "DateOfBirth": "01.01.1965",
+    "Gender": "1",
+    
+    "MembershipId": 5500000049177479,
+    "id": 5500000049177478,
+    "MemberNo": 20,
+    "MemberType": "G",
+    
+    "IsMembershipActive": true,
+    "LandInfos": null,
+    "Email": "",
+    "GsmNumber": "(599) 999 99 99",
+    "DistrictCode": 173119,
+    "IrrigationUnionId": 1,
+    "AgreementDate": null,
+    "AgreementNo": 0,
+    "Explanation": ""
+  },
+
+  {
+    "IdentityOrTaxNumber": "126",
+    "NameOrTitle": "AHMET",
+    "Surname": "DOĞAN",
+    "FatherNameOrRelatedPerson": "YASİR",
+    "MotherName": "MELTEM",
+    "CodeOfPlaceOfBirth": 0,
+    "PlaceOfBirth": "ŞANLIURFA",
+    "DateOfBirth": "01.01.1966",
+    "Gender": "1",
+    "MembershipId": 5500000049177541,
+    "id": 5500000049177540,
+    "MemberNo": 29,
+    "MemberType": "G",
+    "IsMembershipActive": true,
+    "LandInfos": null,
+    "Email": "",
+    "GsmNumber": "(599) 599 59 99",
+    "DistrictCode": 173277,
+    "IrrigationUnionId": 1,
+    "AgreementDate": null,
+    "AgreementNo": 0,
+    "Explanation": ""
+  },
+
+  {
+    "IdentityOrTaxNumber": "884",
+    "NameOrTitle": "HALİL",
+    "Surname": "AYCAN",
+    "FatherNameOrRelatedPerson": "ZEKERİYA",
+    "MotherName": "HULYA",
+    "CodeOfPlaceOfBirth": 0,
+    "PlaceOfBirth": "ŞANLIURFA",
+    "DateOfBirth": "10.12.1982",
+    "Gender": "1",
+    
+    "MembershipId": 5500000049177639,
+    "id": 5500000049177638,
+    "MemberNo": 1,
+    "MemberType": "G",
+   "IsMembershipActive": true,
+    "LandInfos": null,
+    "Email": "",
+    "GsmNumber": "(555) 555 55 55",
+    "DistrictCode": 174393,
+    "IrrigationUnionId": 1,
+    "AgreementDate": "2020-01-09T00:00:00",
+    "AgreementNo": 6,
+    "Explanation": ""
+  },
+  {
+    "IdentityOrTaxNumber": "496",
+    "NameOrTitle": "MEHMET EMİN",
+    "Surname": "SARI",
+    "FatherNameOrRelatedPerson": "KADİR",
+    "MotherName": "MERVE",
+    "CodeOfPlaceOfBirth": 0,
+    "PlaceOfBirth": "ŞANLIURFA",
+    "DateOfBirth": "30.07.1991",
+    "Gender": "1",
+    
+    "MembershipId": 5500000049177643,
+    "id": 5500000049177642,
+    "MemberNo": 3,
+    "MemberType": "G",
+    "IsMembershipActive": true,
+    "LandInfos": null,
+    "Email": "",
+    "GsmNumber": "(592) 999 99 90",
+    "DistrictCode": 174393,
+    "IrrigationUnionId": 1,
+    "AgreementDate": null,
+    "AgreementNo": 0,
+    "Explanation": ""
+  },
+  {
+    "IdentityOrTaxNumber": "768",
+    "NameOrTitle": "MEHMET EMİN",
+    "Surname": "TOKEL",
+    "FatherNameOrRelatedPerson": "FUAT",
+    "MotherName": "NECLA",
+    "CodeOfPlaceOfBirth": 0,
+    "PlaceOfBirth": "ŞANLIURFA",
+    "DateOfBirth": "01.09.1962",
+    "Gender": "1",
+    "MaritalStatus": 0,
+    "MembershipId": 5500000049177649,
+    "id": 5500000049177648,
+    "MemberNo": 6,
+    "MemberType": "G",
+	"IsMembershipActive": true,
+    "LandInfos": null,
+    "Email": "",
+    "GsmNumber": "",
+    "DistrictCode": 174393,
+    "IrrigationUnionId": 1,
+    "AgreementDate": null,
+    "AgreementNo": 0,
+    "Explanation": ""
+  },
+  {
+    "IdentityOrTaxNumber": "120",
+    "NameOrTitle": "HATİCE",
+    "Surname": "KUŞ",
+    "FatherNameOrRelatedPerson": "KADİR",
+    "MotherName": "AYŞE",
+    "CodeOfPlaceOfBirth": -1,
+    "PlaceOfBirth": "BİLİNMİYOR",
+    "DateOfBirth": "01.01.1900",
+    "Gender": "0",
+    "MaritalStatus": 0,
+    
+    "MembershipId": 2000000061497712,
+    "id": 2000000061502599,
+    "MemberNo": 40100,
+    "MemberType": "G",
+   "IsMembershipActive": true,
+    "LandInfos": null,
+    "Email": "",
+    "GsmNumber": "",
+    "DistrictCode": 109,
+    "IrrigationUnionId": 1,
+    "AgreementDate": null,
+    "AgreementNo": 0,
+    "Explanation": ""
+  },
+  {
+    "IdentityOrTaxNumber": "926",
+    "NameOrTitle": "HASAN",
+    "Surname": "SAYAR",
+    "FatherNameOrRelatedPerson": "ALİ",
+    "MotherName": "FATMA",
+    "CodeOfPlaceOfBirth": 1702,
+    "PlaceOfBirth": "ŞANLIURFA",
+    "DateOfBirth": "01.01.1972",
+    "Gender": "1",
+    "MaritalStatus": 2,
+    
+    "MembershipId": 5500000049178335,
+    "id": 5500000049178334,
+    "MemberNo": 503,
+    "MemberType": "G",
+    "IsMembershipActive": true,
+    "LandInfos": null,
+    "Email": "",
+    "GsmNumber": "(592) 999 99 49",
+    "DistrictCode": 174213,
+    "IrrigationUnionId": 1,
+    "AgreementDate": null,
+    "AgreementNo": 0,
+    "Explanation": ""
+  }
+],
+"LandInfos" : [
+    {
+        "id": 6600000012989049,
+        "Status": 1,
+        "LastUpdated": 1624962518665,
+        "OperationRefNo": 2681029,
+        "MemberId": 6600000012959067,
+        "AreaSize": 555.0 ,
+		"RentDate": "2021-04-08T09:09:10"	
+    },
+    {
+        "id": 6600000012989044,
+        "Status": 1,
+        "LastUpdated": 1624888498389,
+        "OperationRefNo": 2681020,
+       "MemberId": 6600000012959067,
+        "AreaSize": 25.0 ,
+		"RentDate": "2021-05-08T09:09:10"	
+    },
+ {
+        "id": 6600000006885008,
+        "Status": 1,
+        "LastUpdated": 1481810855790,
+        "OperationRefNo": 447704,
+        "MemberId": 6600000012959067,
+        "AreaSize": 1288.0 ,
+		"RentDate": "2021-05-31T09:09:10"	
+    },
+ {
+        "id": 6600000006567010,
+        "Status": 1,
+        "LastUpdated": 1478586537368,
+        "OperationRefNo": 655909,
+        "MemberId":6600000006885002,
+		 "AreaSize": 555.0 ,
+		"RentDate": null
+    },
+    {
+        "id": 6600000006567012,
+        "Status": 1,
+        "LastUpdated": 1478616974353,
+        "OperationRefNo": 655910,
+       "MemberId":6600000006885002,
+        "AreaSize": 999.0 ,
+		"RentDate": "2020-04-22T09:09:10"	
+    },
+ {
+        "id": 6600000006679016,
+        "Status": 1,
+        "LastUpdated": 1480060676379,
+        "OperationRefNo": 446612,
+        "MemberId":6600000006885002,
+        "AreaSize": 1889.0 ,
+		"RentDate": "2021-05-18T09:09:10"	
+    },
+{
+        "id": 6600000010085042,
+        "Status": 1,
+        "LastUpdated": 1586187389224,
+        "OperationRefNo": 511125,
+       "MemberId":6600000006885002,
+        "AreaSize": 199.0 ,
+		"RentDate": "2020-09-18T09:09:10"	
+    },
+ {
+        "id": 6600000009545003,
+        "Status": 1,
+        "LastUpdated": 1594636309095,
+        "OperationRefNo": 2398631,
+       "MemberId":5500000049177652,
+        "AreaSize": 199.0 ,
+		"RentDate": "2020-09-18T09:09:10"
+    },
+ {
+        "id": 6600000006679111,
+        "Status": 1,
+        "LastUpdated": 1480061511053,
+        "OperationRefNo": 446629,
+        "MemberId":5500000049177652,
+        "AreaSize": 1403.0 ,
+		"RentDate": "2020-09-18T09:09:10"
+    },
+{
+        "id": 6600000006558289,
+        "Status": 1,
+        "LastUpdated": 1478537045407,
+        "OperationRefNo": 655653,
+       "MemberId": 5500000049177652,
+        "AreaSize": 1071.0 ,
+		"RentDate": "2020-12-18T09:09:10"
+    },
+    {
+        "id": 6600000006558293,
+        "Status": 1,
+        "LastUpdated": 1478537346091,
+        "OperationRefNo": 655656,
+       "MemberId":5500000049177652,
+        "AreaSize": 923.0 ,
+		"RentDate": "2020-01-18T09:09:10"
+    },
+{
+        "id": 6600000010784025,
+        "Status": 1,
+        "LastUpdated": 1594211480038,
+        "OperationRefNo": 536323,
+      "MemberId": 5500000049177660,
+        "AreaSize": 919.0 ,
+		"RentDate": "2020-06-18T09:09:10"
+    },
+{
+        "id": 6600000009919053,
+        "Status": 1,
+        "LastUpdated": 1583743406699,
+        "OperationRefNo": 499940,
+       "MemberId": 5500000049177660,
+        "AreaSize": 919.0 ,
+		"RentDate": "2020-06-24T09:09:10"
+    },
+ {
+        "id": 6600000009098018,
+        "Status": 1,
+        "LastUpdated": 1563791098224,
+        "OperationRefNo": 2292312,
+       "MemberId": 5500000049177660,
+        "AreaSize": 919.0 ,
+		"RentDate": "2020-06-29T09:09:10"
+    }
+]
+}
