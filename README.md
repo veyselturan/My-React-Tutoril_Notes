@@ -21,7 +21,7 @@ npx create-react-app my-app
 #### Necessary Libraries
 - npm install --save react-router-dom
 - npm install --save flatlist-react
-- npm install --save react-select'
+- npm install --save react-select
 - npm install --save react-spinners
 - npm install --save react-confirm-alert
 - npm install --save react-icons
